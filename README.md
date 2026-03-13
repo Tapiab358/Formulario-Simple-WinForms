@@ -6,7 +6,7 @@ Sirve para la creación y validación de contraseñas, asegurando que cumplan co
 
 /Interfaz/
 
-![Interfaz]("https://github.com/Tapiab358/Formulario-Simple-WinForms/tree/master/Capturas")
+![Interfaz]("Capturas/Interfaz.png")
 
 /Funcion/
 
