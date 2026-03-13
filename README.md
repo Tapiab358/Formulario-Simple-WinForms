@@ -1,14 +1,10 @@
-Actividad #1 de la clase de CIBERINFRESTRUCTURA.
+**Actividad #1 de la clase de CIBERINFRESTRUCTURA.**
 
-Validador de Contraseñas Seguras en Windows Forms.
+**Validador de Contraseñas Seguras en Windows Forms.**
 
-Sirve para la creación y validación de contraseñas, asegurando que cumplan con estándares modernos de seguridad mediante el uso de expresiones regulares (Regex).
+**Sirve para la creación y validación de contraseñas, asegurando que cumplan con estándares modernos de seguridad mediante el uso de expresiones regulares (Regex).**
 
-/Interfaz/
-
-![Interfaz]("Capturas/Interfaz.png")
-
-/Funcion/
+**Funcion**
 
 Validación Robusta: Implementa un sistema de verificación que exige requisitos de complejidad específicos.
 
@@ -18,21 +14,21 @@ Confirmación de Coincidencia: Compara dos campos para asegurar que el usuario h
 
 Retroalimentación Visual: Utiliza cuadros de mensaje (MessageBox) con iconos de éxito, advertencia o error según el resultado.
 
-/Requisitos de Seguridad/
+**Requisitos de Seguridad**
 
 Para que una contraseña sea considerada válida por el sistema, debe cumplir con los siguientes criterios:
 
--Mínimo 8 caracteres de longitud.
+- Mínimo 8 caracteres de longitud.
 
--Minimo una letra mayúscula.
+- Minimo una letra mayúscula.
 
--Minimo una letra minúscula.
+- Minimo una letra minúscula.
 
--Minimo un número.
+- Minimo un número.
 
--Minimo un carácter especial (símbolo).
+- Minimo un carácter especial (símbolo).
 
-/Explicación Técnica/
+**Explicación Técnica**
 
 El núcleo de la validación reside en el método ValidarContrasena, que utiliza la siguiente expresión regular:
 
@@ -40,7 +36,7 @@ C#
 
 "string pattern = @"^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[^\da-zA-Z]).{8,}$";"
 
-Desglose del Regex:
+**Desglose del Regex:**
 
 (?=.*[a-z]): Busca al menos una minúscula.
 
@@ -52,10 +48,3 @@ Desglose del Regex:
 
 .{8,} : Define la longitud mínima de 8 caracteres.
 
-/¿Cómo usarlo?/
-
-Ingresa tu contraseña en el primer campo.
-
-Repítela en el segundo campo para confirmar.
-
-Haz clic en el botón de validar para obtener el diagnóstico del sistema.
