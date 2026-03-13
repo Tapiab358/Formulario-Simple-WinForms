@@ -3,8 +3,11 @@ Actividad #1 de la clase de CIBERINFRESTRUCTURA.
 Validador de Contraseñas Seguras en Windows Forms.
 
 Sirve para la creación y validación de contraseñas, asegurando que cumplan con estándares modernos de seguridad mediante el uso de expresiones regulares (Regex).
+
 /Interfaz/
-![Interfaz]("C:\Users\Brand\OneDrive\Imágenes\Capturas de pantalla\Screenshot 2026-03-13 163429.png")
+
+![Interfaz]("https://github.com/Tapiab358/Formulario-Simple-WinForms/tree/master/Capturas")
+
 /Funcion/
 
 Validación Robusta: Implementa un sistema de verificación que exige requisitos de complejidad específicos.
